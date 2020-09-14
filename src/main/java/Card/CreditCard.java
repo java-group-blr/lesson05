@@ -16,14 +16,4 @@ public class CreditCard extends Card {
             System.out.println("Вы сняли сумму в " + min + " " + ". Внимание!!! Вы взяли кредит. Задолженность на счету : " + credit);
         return credit;
     }
-
-    @Override
-    public Double topUp(double add) {
-        return super.topUp(add);
-    }
-
-    @Override
-    public void printBalance() {
-        super.printBalance();
-    }
 }
