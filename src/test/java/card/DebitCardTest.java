@@ -24,11 +24,6 @@ public class DebitCardTest {
         Assertions.assertEquals(BALANCE_TEST-VARIABLE,debitCard.getBalance(),delta);
     }
     @Test
-    public void withDraw2Test (){
-        debitCard.withDraw(VARIABLE2);
-        Assertions.assertEquals(BALANCE_TEST-VARIABLE2,debitCard.getBalance(),delta);
-    }
-    @Test
     public void depositTest(){
         debitCard.deposit(PERCENT_TEST);
         Assertions.assertEquals(BALANCE_TEST*PERCENT_TEST / (100) ,debitCard.getBalance(),delta);
