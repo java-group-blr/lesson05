@@ -1,5 +1,7 @@
 package com.company.hw5;
 
+import com.company.hw5.exception.NotEnoughMoneyException;
+
 public class DebitCard extends Card {
 
     DebitCard(String name, double balance) {
@@ -13,7 +15,7 @@ public class DebitCard extends Card {
     @Override
     public void getMoneyFromBalance(double sum) {
         if (balance - sum < 0) {
-            throw new RuntimeException("Not enough money for this operation.");
+            throw new NotEnoughMoneyException();
         }
         else {
             balance -= sum;
