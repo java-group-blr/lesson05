@@ -56,5 +56,4 @@ public class Card {
         System.out.println("При покупки " + " " + "по курсу " + con + " " + "вы приобретете " + balance + "Ашчушчэня");
         return balance;
     }
-
 }

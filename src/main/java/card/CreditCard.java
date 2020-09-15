@@ -14,6 +14,6 @@ public class CreditCard extends Card {
             System.out.println("Вы сняли сумму в " + min + " " + "сумма на счету " + balance);
         else
             System.out.println("Вы сняли сумму в " + min + " " + ". Внимание!!! Вы взяли кредит. Задолженность на счету : " + balance);
-        return balance ;
+        return balance;
     }
 }

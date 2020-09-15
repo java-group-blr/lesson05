@@ -58,4 +58,4 @@ public class CardTest {
         card.converter(CON_TEST);
         Assertions.assertEquals(BALANCE_TEST / CON_TEST, card.getBalance(), delta);
     }
-}
+} 

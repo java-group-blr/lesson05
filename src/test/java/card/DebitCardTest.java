@@ -18,14 +18,16 @@ public class DebitCardTest {
         debitCard = new DebitCard(NAME_TEST);
         debitCard.setBalance(BALANCE_TEST);
     }
+
     @Test
-    public void withDrawTest (){
+    public void withDrawTest() {
         debitCard.withDraw(VARIABLE);
-        Assertions.assertEquals(BALANCE_TEST-VARIABLE,debitCard.getBalance(),delta);
+        Assertions.assertEquals(BALANCE_TEST - VARIABLE, debitCard.getBalance(), delta);
     }
+
     @Test
-    public void depositTest(){
+    public void depositTest() {
         debitCard.deposit(PERCENT_TEST);
-        Assertions.assertEquals(BALANCE_TEST*PERCENT_TEST / (100) ,debitCard.getBalance(),delta);
+        Assertions.assertEquals(BALANCE_TEST * PERCENT_TEST / (100), debitCard.getBalance(), delta);
     }
 }
