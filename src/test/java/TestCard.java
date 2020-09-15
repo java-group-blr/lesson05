@@ -24,6 +24,13 @@ public class TestCard {
     }
 
     @Test
+    public void cardConstructorTest2() {
+        Card card = new Card(NAME);
+        Assert.assertEquals(NAME, card.name);
+        Assert.assertEquals(BALANCE, card.balance, 0.0000001);
+    }
+
+    @Test
     public void getBalanceTest() {
         Assert.assertEquals(BALANCE, testCard.getBalance(), 0.0000001);
     }

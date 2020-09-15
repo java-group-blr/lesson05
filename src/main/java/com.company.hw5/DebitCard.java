@@ -4,11 +4,11 @@ import com.company.hw5.exception.NotEnoughMoneyException;
 
 public class DebitCard extends Card {
 
-    DebitCard(String name, double balance) {
+    public DebitCard(String name, double balance) {
         super(name, balance);
     }
 
-    DebitCard(String name) {
+    public DebitCard(String name) {
         super(name);
     }
 

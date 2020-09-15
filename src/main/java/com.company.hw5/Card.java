@@ -12,7 +12,7 @@ public class Card {
 
     public Card(String name) {
         this.name = name;
-        this.balance = 0.0;
+        this.balance = 1000.0;
     }
 
     public double getBalance(){
