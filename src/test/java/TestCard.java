@@ -1,18 +1,17 @@
 import com.company.hw5.Card;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestCard {
+
     private Card testCard;
     private static final String NAME = "Alex";
     private static final double BALANCE = 1000.0;
     private static final double SUM = 500.0;
     private static final double RATE = 2.0;
 
-    @BeforeEach
+    @Before
     public void start() {
         testCard = new Card(NAME, BALANCE);
     }
@@ -20,29 +19,29 @@ public class TestCard {
     @Test
     public void cardConstructorTest1() {
         Card card = new Card(NAME, BALANCE);
-        assertEquals(NAME, card.name);
-        assertEquals(BALANCE, card.balance);
+        Assert.assertEquals(NAME, card.name);
+        Assert.assertEquals(BALANCE, card.balance, 0.0000001);
     }
 
     @Test
     public void getBalanceTest() {
-        assertEquals(BALANCE, testCard.getBalance());
+        Assert.assertEquals(BALANCE, testCard.getBalance(), 0.0000001);
     }
 
     @Test
     public void putMoneyOnBalanceTest() {
         testCard.putMoneyOnBalance(SUM);
-        assertEquals(SUM + BALANCE, testCard.balance);
+        Assert.assertEquals(SUM + BALANCE, testCard.balance, 0.0000001);
     }
 
     @Test
     public void getMoneyFromBalanceTest() {
         testCard.getMoneyFromBalance(SUM);
-        assertEquals(BALANCE - SUM, testCard.balance);
+        Assert.assertEquals(BALANCE - SUM, testCard.balance, 0.0000001);
     }
 
     @Test
     public void convertBalanceTest() {
-        assertEquals(BALANCE / RATE, testCard.convertBalance(RATE));
+        Assert.assertEquals(BALANCE / RATE, testCard.convertBalance(RATE), 0.0000001);
     }
 }
