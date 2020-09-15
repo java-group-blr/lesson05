@@ -36,13 +36,12 @@ public class Menu {
             case 4:
                 System.out.println("На данный момент 1 ед.Кукловода = 2.6 Ашчушчэне ");
                 double con = 2.6;
-                String name = " Кукловодов ";
-                card.converter(con, name);
+                card.converter(con);
                 break;
             case 5:
                 System.out.println("1.Баланс карты ");
                 System.out.println("2.Снять со счёта  ");
-                System.out.println("3.пополнить счёт ");
+                System.out.println("3.Пополнить счёт ");
                 int number2 = sc.nextInt();
                 switch (number2) {
                     case 1:
@@ -61,6 +60,7 @@ public class Menu {
                 }
         }
     }
+
     public void menuPresent() {
         Scanner sc = new Scanner(System.in);
         Card present = new Card("Mr.Neelixs");
@@ -90,8 +90,7 @@ public class Menu {
             case 4:
                 System.out.println("На данный момент 1 ед.Кукловода = 2.6 Ашчушчэне ");
                 double con = 2.6;
-                String name = " Кукловодов ";
-                present.converter(con, name);
+                present.converter(con);
                 break;
             case 5:
                 System.out.println("1.Баланс счёта ");
@@ -115,7 +114,7 @@ public class Menu {
                         break;
                     case 4:
                         System.out.println("Депозит на будку под 13.23 % годовых ");
-                        debitCard.deposit(13.23, 365);
+                        debitCard.deposit(13.23);
                         break;
                 }
         }
