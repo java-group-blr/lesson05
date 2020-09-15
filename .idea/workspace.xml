@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ac4dabe-29f5-4778-ab34-179a9b4596be" name="Default Changelist" comment="Спасаю Pull">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/card/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/card/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/card/DebitCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/DebitCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/card/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/card/CardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/card/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/card/CreditCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/card/DebitCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menu/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/start/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson05-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-card.CardTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-card.CreditCardTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-card.DebitCardTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/card.CardTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/card.CreditCardTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/card.DebitCardTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/card/CardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/card/CreditCardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/card/DebitCardTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hV4X6QQ2f7sTH22SfsGUxpyBPj" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson04/.gitignore" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.All in lesson05">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.Main" />
+      <module name="lesson05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in lesson05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson05" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest.setBALANCE_TEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="card.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="card" />
+      <option name="MAIN_CLASS_NAME" value="card.CardTest" />
+      <option name="METHOD_NAME" value="setBALANCE_TEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest.setNAME_TEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="card.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="card" />
+      <option name="MAIN_CLASS_NAME" value="card.CardTest" />
+      <option name="METHOD_NAME" value="setNAME_TEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="card in lesson05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="card.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="card" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in lesson05" />
+        <item itemvalue="JUnit.card in lesson05" />
+        <item itemvalue="JUnit.CardTest.setBALANCE_TEST" />
+        <item itemvalue="JUnit.CardTest.setNAME_TEST" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Первый этап" />
+    <MESSAGE value="2 этап : &#10;1.Добавлен класс Creditcard доступен в меню Основной Счёт&#10;В классе реализован метод отрицательного баланса&#10;&#10;2.Добавлен класс DebitCard доступен в подарочном Счёте&#10;В классе запрещен отрицательный баланс&#10;И реализован метод Депозита" />
+    <MESSAGE value="Зачем то вызвал переопределение не нужных методов.&#10;Черт попутал=)" />
+    <MESSAGE value="Косметические изменения" />
+    <MESSAGE value="Изменения :&#10;1.Добавлены тесты&#10;2.Косметические правки" />
+    <MESSAGE value="Create .gitignore" />
+    <MESSAGE value="Спасаю Pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="Спасаю Pull" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="61" key="#Inspections" timestamp="1600115040665">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="309" y="61" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1600115040665" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1600212993012">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1600212993012" />
+    <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600212234294">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1600212234294" />
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1600099623434">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1600099623434" />
+    <state x="409" y="73" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1600083524853">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="409" y="73" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768@0.0.1366.768" timestamp="1600083524853" />
+    <state x="100" y="100" width="1166" height="568" key="DiffContextDialog" timestamp="1600212598219">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="100" y="100" width="1166" height="568" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1600212598219" />
+    <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1600209359567">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1600209359567" />
+    <state width="1308" height="109" key="GridCell.Tab.0.bottom" timestamp="1600213194125">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="109" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600213194125" />
+    <state width="1308" height="109" key="GridCell.Tab.0.center" timestamp="1600213194125">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="109" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600213194125" />
+    <state width="1308" height="109" key="GridCell.Tab.0.left" timestamp="1600213194125">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="109" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600213194125" />
+    <state width="1308" height="109" key="GridCell.Tab.0.right" timestamp="1600213194125">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="109" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600213194125" />
+    <state width="1324" height="234" key="GridCell.Tab.1.bottom" timestamp="1600119838310">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600119838310" />
+    <state width="1324" height="234" key="GridCell.Tab.1.center" timestamp="1600119838310">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1600119838310" />
+    <state width="1324" height="234" key="GridCell.Tab.1.left" timestamp="1600119838309">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1600119838309" />
+    <state width="1324" height="234" key="GridCell.Tab.1.right" timestamp="1600119838310">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1600119838310" />
+    <state x="213" y="37" key="Maven.ArtifactSearchDialog" timestamp="1600117342386">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="213" y="37" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1600117342386" />
+    <state x="129" y="58" key="MergeDialog" timestamp="1600212317777">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="129" y="58" key="MergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1600212317777" />
+    <state x="324" y="146" key="MultipleFileMergeDialog" timestamp="1600212832746">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="324" y="146" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1600212832746" />
+    <state x="572" y="104" key="RollbackChangesDialog" timestamp="1600212387010">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="572" y="104" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1600212387010" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1600197176956">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1600197176956" />
+    <state x="275" y="115" key="Vcs.Push.Dialog.v2" timestamp="1600210234217">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="115" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1600210234217" />
+    <state x="505" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600212465021">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="505" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1600212465021" />
+    <state x="0" y="0" width="572" height="768" key="find.popup" timestamp="1600083488458">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" width="572" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1600083488458" />
+    <state x="108" y="44" key="new project wizard" timestamp="1600083314542">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="108" y="44" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1600083314542" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600086909614">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1600086909614" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lesson05$CardTest_printBalanceTest.ic" NAME="CardTest.printBalanceTest Coverage Results" MODIFIED="1600197575268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>card.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lesson05$CardTest_converter.ic" NAME="CardTest.converter Coverage Results" MODIFIED="1600202572397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>card.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lesson05$card_in_lesson05.ic" NAME="card in lesson05 Coverage Results" MODIFIED="1600207413213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>card.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lesson05$All_in_lesson05.ic" NAME="All in lesson05 Coverage Results" MODIFIED="1600207744527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
