@@ -33,27 +33,22 @@ public class Card {
         this.balance = balance;
     }
 
-    public double printBalance() {
+    public void printBalance() {
         System.out.println("Баланс вашего счета состовляет : " + balance);
-        return balance;
     }
 
-    public double topUp(double add) {
+    public void topUp(double add) {
         balance += add;
         System.out.println("Вы пополнили счёт на " + add + " " + "вам доступно " + balance);
-        return balance;
     }
 
-    public double withDraw(double min) {
+    public void withDraw(double min) {
         balance -= min;
         System.out.println("Вы сняли сумму в " + min + " " + "сумма на счету " + balance);
-        return balance;
     }
 
-
-    public double converter(double con) {
-        balance /= con;
-        System.out.println("При покупки " + " " + "по курсу " + con + " " + "вы приобретете " + balance + "Ашчушчэня");
-        return balance;
+    public void converter(double con, String name) {
+        double converter = (balance / con);
+        System.out.println("При покупки " + name + " " + "по курсу " + con + " " + "вы приобретете " + converter + "Ашчушчэня");
     }
 }

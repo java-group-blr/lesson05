@@ -8,12 +8,15 @@ public class CreditCard extends Card {
     }
 
     @Override
-    public double withDraw(double min) {
+    public void withDraw(double min) {
         balance -= min;
         if (min <= balance)
             System.out.println("Вы сняли сумму в " + min + " " + "сумма на счету " + balance);
         else
             System.out.println("Вы сняли сумму в " + min + " " + ". Внимание!!! Вы взяли кредит. Задолженность на счету : " + balance);
+<<<<<<< HEAD
         return balance;
+=======
+>>>>>>> parent of 9ccab2b... Изменения :
     }
 }
