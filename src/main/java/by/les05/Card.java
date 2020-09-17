@@ -7,7 +7,7 @@ public abstract class Card {
     public Card(String userName, double account) {
         this.userName = userName;
         this.account = account;
-            }
+                    }
 
     public String getUserName() {
         return userName;
