@@ -3,7 +3,6 @@ package by.les05;
 public class CreditCard extends Card {
     public CreditCard(String userName, double account) {
         super(userName, account);
-
     }
 
     double getCardBalance() {

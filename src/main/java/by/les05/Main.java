@@ -18,6 +18,5 @@ public class Main {
         debitCardUserId1.getMoney(100000);
         debitCardUserId1.getCardBalance();
         debitCardUserId1.changeMoney(2.58);
-
     }
 }

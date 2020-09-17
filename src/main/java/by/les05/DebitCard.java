@@ -27,6 +27,5 @@ public class DebitCard extends Card{
         double moneyBY = course * account;
         System.out.println("В пересчете с USD, баланс дебетовой карты составляет " + moneyBY + " белорусских рублей");
         return moneyBY;
-
             }
 }
