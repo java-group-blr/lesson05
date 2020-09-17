@@ -8,7 +8,7 @@ public class CreditCard extends Card {
     double getCardBalance() {
         System.out.println("Текущий баланс кредитки " + account + " USD");
         return account;
-    }
+            }
 
     double addMoney(double money) {
         System.out.println("На ваш баланс зачислено " + money + " USD");
