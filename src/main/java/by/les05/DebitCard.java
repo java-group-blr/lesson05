@@ -13,6 +13,7 @@ public class DebitCard extends Card{
     double addMoney(double money) {
         System.out.println("На баланс дебетовой карты зачислено " + money + " USD");
         return (account += money);
+
     }
 
     double getMoney(double money) {
