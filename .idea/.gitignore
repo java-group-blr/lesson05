@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+*.xml
+*.iml
+*.yml
+*.md
+!pom.xml
+/target/
+!/java/
+/src/
+
+
+
