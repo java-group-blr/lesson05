@@ -32,7 +32,11 @@ public class DebitCardTests {
 
     @Test
     public void withdrawalBalance() throws NotEnoughMoneyException {
-        debitCard.withdrawalBalance(-SUM_OF_MONEY);
-        Assert.assertEquals(CARD_BALANCE - Math.abs(SUM_OF_MONEY), debitCard.getCardBalance(), 0);
+        try {
+            debitCard.withdrawalBalance(-SUM_OF_MONEY);
+        } catch (NotEnoughMoneyException ex) {
+            System.out.println("Sorry, there are not enough money on your card");
+        }
+        Assert.assertEquals(CARD_BALANCE, debitCard.getCardBalance(), 0);
     }
 }
