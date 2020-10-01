@@ -1,6 +1,8 @@
 package by.javablr.task1;
 
-abstract public class Card {
+import by.javablr.task1.exceptions.NotEnoughMoneyException;
+
+public abstract class Card {
     private String cardHolderName;
     private double cardBalance;
 
@@ -26,7 +28,17 @@ abstract public class Card {
         cardBalance += sumOfMoney;
     }
 
-    public void withdrawalBalance(double sumOfMoney) {
-        cardBalance -= sumOfMoney;
+    public abstract void withdrawalBalance(double sumOfMoney) throws NotEnoughMoneyException;
+
+    public String getCardHolderName() {
+        return cardHolderName;
+    }
+
+    public void setCardHolderName(String cardHolderName) {
+        this.cardHolderName = cardHolderName;
+    }
+
+    public void setCardBalance(double cardBalance) {
+        this.cardBalance = cardBalance;
     }
 }

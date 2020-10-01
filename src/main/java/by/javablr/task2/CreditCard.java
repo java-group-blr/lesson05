@@ -11,4 +11,9 @@ public class CreditCard extends Card {
     public CreditCard(String cardHolderName) {
         super(cardHolderName);
     }
+
+    @Override
+    public void withdrawalBalance(double sumOfMoney) {
+        setCardBalance(getCardBalance() - Math.abs(sumOfMoney));
+    }
 }

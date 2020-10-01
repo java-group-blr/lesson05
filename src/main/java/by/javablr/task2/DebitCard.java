@@ -1,6 +1,7 @@
 package by.javablr.task2;
 
 import by.javablr.task1.Card;
+import by.javablr.task1.exceptions.NotEnoughMoneyException;
 
 public class DebitCard extends Card {
 
@@ -13,9 +14,9 @@ public class DebitCard extends Card {
     }
 
     @Override
-    public void withdrawalBalance(double sumOfMoney) {
-        if (super.getCardBalance() - sumOfMoney < 0)
-            System.out.println("Sorry, there are not enough funds on your card");
-        else super.withdrawalBalance(sumOfMoney);
+    public void withdrawalBalance(double sumOfMoney) throws NotEnoughMoneyException {
+        if (getCardBalance() < Math.abs(sumOfMoney))
+            throw new NotEnoughMoneyException ("Sorry, there are not enough money on your card");
+        else setCardBalance(getCardBalance() - Math.abs(sumOfMoney));
     }
 }
