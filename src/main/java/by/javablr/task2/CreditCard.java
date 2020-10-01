@@ -13,6 +13,16 @@ public class CreditCard extends Card {
     }
 
     @Override
+    public double getCardBalanceInCurrency(double currencyRate) {
+        return getCardBalance() / currencyRate;
+    }
+
+    @Override
+    public void rechargeBalance(double sumOfMoney) {
+        setCardBalance(getCardBalance() + sumOfMoney);
+    }
+
+    @Override
     public void withdrawalBalance(double sumOfMoney) {
         setCardBalance(getCardBalance() - Math.abs(sumOfMoney));
     }

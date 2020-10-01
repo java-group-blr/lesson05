@@ -14,6 +14,16 @@ public class DebitCard extends Card {
     }
 
     @Override
+    public double getCardBalanceInCurrency(double currencyRate) {
+        return getCardBalance() / currencyRate;
+    }
+
+    @Override
+    public void rechargeBalance(double sumOfMoney) {
+        setCardBalance(getCardBalance() + sumOfMoney);
+    }
+
+    @Override
     public void withdrawalBalance(double sumOfMoney) throws NotEnoughMoneyException {
         if (getCardBalance() < Math.abs(sumOfMoney))
             throw new NotEnoughMoneyException ("Sorry, there are not enough money on your card");

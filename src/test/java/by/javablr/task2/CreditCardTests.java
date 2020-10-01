@@ -10,10 +10,32 @@ public class CreditCardTests {
     private static final String CARD_HOLDER_NAME = "John Smith";
     private static final double CARD_BALANCE = 999.00;
     private static final double SUM_OF_MONEY = 1000.00;
+    private static final double CURRENCY_RATE = 2.60;
 
     @Before
     public void setUp() {
         creditCard = new CreditCard(CARD_HOLDER_NAME, CARD_BALANCE);
+    }
+
+    @Test
+    public void testGetBalance() {
+        Assert.assertEquals(CARD_BALANCE, creditCard.getCardBalance(), 0);
+    }
+
+    @Test
+    public void testGetCardBalanceInCurrency() {
+        Assert.assertEquals(CARD_BALANCE / CURRENCY_RATE, creditCard.getCardBalanceInCurrency(CURRENCY_RATE), 0);
+    }
+
+    @Test
+    public void testRechargeBalance() {
+        creditCard.rechargeBalance(SUM_OF_MONEY);
+        Assert.assertEquals(CARD_BALANCE + SUM_OF_MONEY, creditCard.getCardBalance(), 0);
+    }
+
+    @Test
+    public void testGetCardHolderName() {
+        Assert.assertEquals(CARD_HOLDER_NAME, creditCard.getCardHolderName());
     }
 
     @Test
@@ -30,7 +52,7 @@ public class CreditCardTests {
     }
 
     @Test
-    public void withdrawalBalance() {
+    public void testWithdrawalBalance() {
         creditCard.withdrawalBalance(-SUM_OF_MONEY);
         Assert.assertEquals(CARD_BALANCE - Math.abs(SUM_OF_MONEY), creditCard.getCardBalance(), 0);
     }

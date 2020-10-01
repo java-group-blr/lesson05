@@ -20,16 +20,6 @@ public abstract class Card {
         return cardBalance;
     }
 
-    public double getCardBalanceInCurrency(double currencyRate) {
-        return cardBalance / currencyRate;
-    }
-
-    public void rechargeBalance(double sumOfMoney) {
-        cardBalance += sumOfMoney;
-    }
-
-    public abstract void withdrawalBalance(double sumOfMoney) throws NotEnoughMoneyException;
-
     public String getCardHolderName() {
         return cardHolderName;
     }
@@ -41,4 +31,11 @@ public abstract class Card {
     public void setCardBalance(double cardBalance) {
         this.cardBalance = cardBalance;
     }
+
+    public abstract double getCardBalanceInCurrency(double currencyRate);
+
+    public abstract void rechargeBalance(double sumOfMoney);
+
+    public abstract void withdrawalBalance(double sumOfMoney) throws NotEnoughMoneyException;
+
 }
