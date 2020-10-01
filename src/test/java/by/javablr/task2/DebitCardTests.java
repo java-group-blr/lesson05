@@ -5,6 +5,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertThrows;
+
 public class DebitCardTests {
 
     private DebitCard debitCard;
@@ -53,22 +55,10 @@ public class DebitCardTests {
     }
 
     @Test
-    public void testWithdrawalBalanceWithoutEx() {
-        try {
-            debitCard.withdrawalBalance(-SUM_OF_MONEY);
-        } catch (NotEnoughMoneyException ex) {
-            System.out.println("Sorry, there are not enough money on your card");
-        }
-        Assert.assertEquals(CARD_BALANCE, debitCard.getCardBalance(), 0);
-    }
-
-    @Test
     public void testWithdrawalBalanceWithEx() {
-        try {
-            debitCard.withdrawalBalance(SUM_OF_MONEY-100);
-        } catch (NotEnoughMoneyException ex) {
-            System.out.println("Sorry, there are not enough money on your card");
-        }
-        Assert.assertEquals(CARD_BALANCE - (SUM_OF_MONEY - 100), debitCard.getCardBalance(), 0);
+        Throwable thrown = assertThrows(NotEnoughMoneyException.class, () -> {
+            debitCard.withdrawalBalance(SUM_OF_MONEY);
+        });
+        Assert.assertNotNull(thrown.getMessage());
     }
 }
