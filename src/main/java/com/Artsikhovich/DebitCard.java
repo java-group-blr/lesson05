@@ -14,7 +14,7 @@ public class DebitCard extends Card {
         if (balance >= sub) {
             this.balance -= sub;
         } else {
-            System.out.println("Not enough money on the account.");
+            System.out.println("Not enough money on the account. Operation canceled.");
         }
     }
 }
