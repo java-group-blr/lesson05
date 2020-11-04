@@ -55,6 +55,12 @@ public class DebitCardTests {
     }
 
     @Test
+    public void testWithdrawalBalance() throws NotEnoughMoneyException {
+        debitCard.withdrawalBalance(SUM_OF_MONEY - 100);
+        Assert.assertEquals(debitCard.getCardBalance(), CARD_BALANCE - (SUM_OF_MONEY - 100), 0);
+    }
+
+    @Test
     public void testWithdrawalBalanceWithEx() {
         Throwable thrown = assertThrows(NotEnoughMoneyException.class, () -> {
             debitCard.withdrawalBalance(SUM_OF_MONEY);

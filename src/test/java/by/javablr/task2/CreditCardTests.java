@@ -18,8 +18,14 @@ public class CreditCardTests {
     }
 
     @Test
-    public void testGetBalance() {
+    public void testGetCardBalance() {
         Assert.assertEquals(CARD_BALANCE, creditCard.getCardBalance(), 0);
+    }
+
+    @Test
+    public void testSetCardHolderName() {
+        creditCard.setCardHolderName(CARD_HOLDER_NAME);
+        Assert.assertEquals(CARD_HOLDER_NAME, creditCard.getCardHolderName());
     }
 
     @Test
